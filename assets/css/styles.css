@@ -301,13 +301,15 @@ body {
 
 
 
-#head img.img-circle {
+header #head img.img-circle {
   display: block;
   width: 140px;
   height: 140px;
   overflow: hidden;
   border: 9px solid rgba(0, 0, 0, 0.05);
   margin: 0 auto;
+  border-radius: 50%;
+  /* Importante: crea el círculo */
 }
 
 #head .title {
