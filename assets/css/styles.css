@@ -1010,3 +1010,13 @@ footer.entry-meta .meta-in {
 .media-kit:hover {
   border-color: white;
 }
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+  .custom-button {
+    width: 50%;
+    /* Ocupa el 90% del ancho del contenedor */
+    max-width: 300px;
+    /* Limita el ancho máximo */
+  }
+}
