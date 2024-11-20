@@ -1015,6 +1015,7 @@ footer.entry-meta .meta-in {
 @media (max-width: 768px) {
   .custom-button {
     width: 50%;
+    width: 200px;
     /* Ocupa el 90% del ancho del contenedor */
     max-width: 300px;
     /* Limita el ancho máximo */
